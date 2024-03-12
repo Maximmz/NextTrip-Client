@@ -1,0 +1,125 @@
+.hotel-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #070707;
+  padding: 20px;
+}
+
+.hotel-details {
+  flex: 1;
+  max-width: 600px;
+  margin-right: 20px;
+  color: wheat;
+}
+
+.back-button {
+  display: flex;
+  align-items: center;
+  color: rgb(197, 175, 142);
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+.back-button span {
+  margin-left: 5px;
+}
+
+.hotel-name {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.image-slider {
+  position: relative;
+}
+
+.image-slider img {
+  width: 100%;
+  height: 380px;
+  margin: 10px;
+  transition: transform 0.5s ease;
+}
+
+.slider-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.slider-buttons .slider-button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  padding: 5px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.slider-buttons .slider-button:hover {
+  color: #4caf50;
+}
+
+.hotel-sidebar {
+  flex: 1;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.sidebar-links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.sidebar-links a {
+  color: white;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.manager-button {
+  background-color: #4caf50;
+  margin-top: 10px;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  max-width: 300px;
+  text-align: center;
+}
+
+.manager-button:hover {
+  background-color: #388e3c;
+}
+
+.price {
+  margin-top: 50px;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.calendar {
+  color: rgb(192, 159, 96);
+  width: 100%;
+}
+.map-container {
+  width: 100%;
+}
+
+
+

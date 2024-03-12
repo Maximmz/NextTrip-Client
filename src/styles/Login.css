@@ -1,0 +1,63 @@
+.login {
+  height: 70vh;
+  background-color: #070707;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lContainer {
+  display: flex;
+  width: 40%;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.lInput {
+  height: 40px;
+  padding: 8px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #333;
+}
+
+.login span {
+  color: wheat;
+  font-size: 14px;
+}
+
+.lButton {
+  border: none;
+  padding: 12px 24px;
+  background-color: #0071c2;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.rButton {
+  border: none;
+  padding: 12px 24px;
+  background-color: #0071c2;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  width: 50%;
+  align-items:flex-end;
+}
+
+.lButton:disabled {
+  background-color: #0071c28c;
+  cursor: not-allowed;
+}
+
+.lButton:hover {
+  background-color: #005aa5;
+}
+

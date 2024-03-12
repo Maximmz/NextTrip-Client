@@ -1,0 +1,39 @@
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container {
+  flex: 1;
+}
+
+.footer {
+  background-color: #121619;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.socialMedia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.socialMedia svg {
+  color: white;
+  margin: 10px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.footer p {
+  margin: 0;
+}

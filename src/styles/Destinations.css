@@ -1,0 +1,81 @@
+.dest {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: #070707;
+}
+
+.destin {
+  color: wheat;
+  font-size: 52px;
+  margin-bottom: 40px;
+}
+
+.destList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(1000px, 1fr));
+  grid-gap: 50px;
+  justify-items: center;
+}
+
+.destItem {
+  width: 100%;
+  height: 320px;
+  border-radius: 15px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.destItem:hover {
+  box-shadow: 0px 3px 15px rgba(255, 255, 255, 0.256);
+  transform: scale(1.05);
+}
+
+.destItem div {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.destTextContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.destText {
+  border: none;
+  border-radius: 0 0 40px 0;
+  font-size: 25px;
+  text-transform: uppercase;
+  transition: opacity 0.3s;
+  padding: 18px;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.destText:hover {
+  opacity: 1;
+}
+
+@media only screen and (max-width: 1300px) {
+  .destList {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .destin {
+    font-size: 36px;
+  }
+}

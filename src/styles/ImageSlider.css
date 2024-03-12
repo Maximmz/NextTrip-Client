@@ -1,0 +1,110 @@
+.image-slider {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  margin: 20px;
+  max-width: 1200px;
+  overflow: hidden;
+}
+
+.slider-content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+.image-container {
+  flex: 1;
+}
+
+.text-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 20px;
+}
+.image-title {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+  color: wheat;
+}
+
+.image-description {
+  font-size: 1rem;
+  text-align: center;
+  align-self: center;
+  color: #ffffff;
+}
+
+
+.image-slider img {
+  width: 100%;
+  transition: transform 1s ease;
+  border-radius: 20px;
+}
+
+.slider-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 25%;
+  padding: 10px;
+}
+
+.slider-control {
+  background-color: #4CAF50; /* Green color */
+  width: 200px;
+  border: none;
+  border-radius: 50px;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  padding: 10px 15px 10px 15px;
+  margin: 2px; /* Add some horizontal margin for spacing */
+}
+
+.slider-control:hover {
+  transform: scale(1.05);
+}
+
+
+.slider-control.prev {
+  margin-right: auto;
+}
+
+.slider-control.next {
+  margin-left: auto;
+}
+
+.slider-control:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.link-button {
+  display: inline-block;
+  border: none;
+  color: #ffffff;
+  background-color: #9e9e9e27;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 40rem;
+  margin: 10px;
+  transition: all 0.2s ease-in-out;
+}
+
+.link-button:hover {
+  background-color: #f2f2f2;
+  color: #4f4f4f;
+}

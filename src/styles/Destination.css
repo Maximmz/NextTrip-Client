@@ -1,0 +1,54 @@
+.destination-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #070707;
+  min-height: 70vh;
+  padding: 20px;
+}
+
+.destination-content {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.hotel-count-button {
+  padding: 6px 12px;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  background-color: #0071c2;
+  color: white;
+  border: none;
+  outline: none;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.hotel-count-button:hover {
+  background-color: #005b9f;
+}
+
+.hotel-count-button:disabled {
+  background-color: #0071c28c;
+  cursor: not-allowed;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+/* Adjust the button size on smaller screens if needed */
+@media only screen and (max-width: 480px) {
+  .hotel-count-button {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+}
+
+
+
