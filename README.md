@@ -1,4 +1,4 @@
-# Demo
+# Client
 
 This is the Client side of the NextTrip MERN Web Application.
 
